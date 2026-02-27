@@ -12,6 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Building2, Mail, Phone, Copy, Check } from "lucide-react";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { EmailCopyButton } from "@/components/EmailCopyButton";
 import { useState } from "react";
 
 export const metadata: Metadata = {
